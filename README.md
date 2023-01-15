@@ -36,6 +36,7 @@ cd CMOS-GAN_code_refactor
 
 ### Run CMOS-GAN 
 
+
 - Download the pre-trained RGB face recognition network.
   - We previously downloaded a pre-trained face recognition network from <https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/>, but this model maybe no longer publicly available.
   - So we suggest use [Our Pretrained models](https://drive.google.com/file/d/1BEYaFX_kW6pWTkcNiwRg5vGereXvtTVw/view?usp=share_link) for PyTorch are converted from [Caffe models](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/) authors of [1] provide.
@@ -74,7 +75,7 @@ cd CMOS-GAN_code_refactor
 
   - If you do not want to perform face recognition, you can run the following scripts to start training and testing. 	
 
-    ```
+    ```	
     bash script/S2P_CUFS_CUFSF/S2P_CUFS_CUFSF_no_recognition.sh
     ```
 
@@ -91,6 +92,7 @@ Similarly, NIR-to-VIS synthesis and RGB-to-depth synthesis can be performed usin
     ```
     bash script/RGBD_VIPLMumoFace3K/RGBD_VIPLMumoFace3K.sh
     ```
+
 
 
 
@@ -118,7 +120,6 @@ Similarly, NIR-to-VIS synthesis and RGB-to-depth synthesis can be performed usin
 
     ```
     bash script/RGBD_RealSenseII_VIPLMumoFace3K/RGBD_RealSenseII_VIPLMumoFace3K.sh
-    
     ```
 
 
