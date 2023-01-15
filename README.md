@@ -46,7 +46,7 @@ cd CMOS-GAN_code_refactor
 
 - sketch-to-photo synthesis
 
-  - We download [CUFS](<http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html>)  [CUFSF](<http://mmlab.ie.cuhk.edu.hk/archive/cufsf/>) [3-4] dataset. We use CUFS as the paired data $S_p$, and use CUFSF as the unpaired data $S_u$.
+  - We download the [CUFS](<http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html>) and [CUFSF](<http://mmlab.ie.cuhk.edu.hk/archive/cufsf/>) [3-4] dataset. We use CUFS as the paired data $S_p$, and use CUFSF as the unpaired data $S_u$.
 
   - We performed face alignment, cropping and augmentation. Our processed data can be downloaded [here](https://drive.google.com/file/d/1Fk5gdC9bpUXDdMTa6GTX-wE22JHfQ9yE/view?usp=share_link). Put the downloaded dataset folders (named 'AUG_3_9_AR', 'AUG_3_9_CUFSF', 'AUG_3_9_CUHK', and 'AUG_3_9_XM2VTS') at 'CMOS-GAN/dataset/Viewed/'. The complete relative paths are as follows.
 
