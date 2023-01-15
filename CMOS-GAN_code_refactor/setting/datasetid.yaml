@@ -1,0 +1,52 @@
+1: 'Viewed/AR'
+2: 'Viewed/CUHK'
+3: 'Viewed/XM2VTS'
+4: 'Viewed/CUFSF'
+11: 'Viewed/AUG_AR'
+12: 'Viewed/AUG_CUHK'
+13: 'Viewed/AUG_XM2VTS'
+14: 'Viewed/AUG_CUFSF'
+31: 'Viewed/AUG_3_9_AR'
+32: 'Viewed/AUG_3_9_CUHK'
+33: 'Viewed/AUG_3_9_XM2VTS'
+34: 'Viewed/AUG_3_9_CUFSF'
+3001: 'RealSenseII/set1'
+3002: 'RealSenseII/set2'
+13001: 'BUAA_RGBD_DB_v5_clean/set1'
+13002: 'BUAA_RGBD_DB_v5_clean/set2'
+23001: 'VIPLMumoFace3K/set1'
+23002: 'VIPLMumoFace3K/set2'
+24001: 'VIPLMumoFace3K/set1'
+24002: 'VIPLMumoFace3K/set2'
+
+
+'RGBD': [3001,3002,13001,13002,23001,23002]
+'NIR_VIS': [24001,24002]
+'sketch_photo': [1,2,3,4,11,12,13,14,31,32,33,34]
+
+
+gallery: 
+  3001:
+    RGB: 'setting/setting_RealSenseII/gallery_set1_RGB.txt'
+    D: 'setting/setting_RealSenseII/gallery_set1_D.txt'
+  3002:
+    RGB: 'setting/setting_RealSenseII/gallery_set2_RGB.txt'
+    D: 'setting/setting_RealSenseII/gallery_set2_D.txt'
+  13001:
+    RGB: 'setting/setting_BUAA_RGBD_DB_v5_clean/gallery_set1_RGB.txt'
+    D: 'setting/setting_BUAA_RGBD_DB_v5_clean/gallery_set1_D.txt'
+  13002:
+    RGB: 'setting/setting_BUAA_RGBD_DB_v5_clean/gallery_set2_RGB.txt'
+    D: 'setting/setting_BUAA_RGBD_DB_v5_clean/gallery_set2_D.txt'
+  23001:
+    RGB: 'setting/setting_VIPLMumoFace3K/gallery_set1_RGB.txt'
+    D: 'setting/setting_VIPLMumoFace3K/gallery_set1_D.txt'
+  23002:
+    RGB: 'setting/setting_VIPLMumoFace3K/gallery_set2_RGB.txt'
+    D: 'setting/setting_VIPLMumoFace3K/gallery_set2_D.txt'
+  24001: 
+    NIR: 'setting/setting_VIPLMumoFace3K/gallery_set1_NIR.txt'
+    RGB: 'setting/setting_VIPLMumoFace3K/gallery_set1_RGB.txt'
+  24002: 
+    NIR: 'setting/setting_VIPLMumoFace3K/gallery_set2_NIR.txt'
+    RGB: 'setting/setting_VIPLMumoFace3K/gallery_set2_RGB.txt'
