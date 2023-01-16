@@ -62,7 +62,7 @@ cd CMOS-GAN_code_refactor
     ```
     bash script/S2P_CUFS_CUFSF/S2P_CUFS_CUFSF.sh
     ```
-
+    You can modify the random seed in the yaml files in the 'script\S2P_CUFS_CUFSF' folder.
     
 
   - If you do not want to use the 10,000 background images when performing face recognition, you can run the following script to start training and testing. 
@@ -122,7 +122,7 @@ Similarly, NIR-to-VIS synthesis and RGB-to-depth synthesis can be performed usin
     bash script/RGBD_RealSenseII_VIPLMumoFace3K/RGBD_RealSenseII_VIPLMumoFace3K.sh
     ```
 
-
+    you can 
 
 
 
