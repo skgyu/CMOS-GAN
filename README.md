@@ -122,7 +122,6 @@ Similarly, NIR-to-VIS synthesis and RGB-to-depth synthesis can be performed usin
     bash script/RGBD_RealSenseII_VIPLMumoFace3K/RGBD_RealSenseII_VIPLMumoFace3K.sh
     ```
 
-    you can 
 
 
 
